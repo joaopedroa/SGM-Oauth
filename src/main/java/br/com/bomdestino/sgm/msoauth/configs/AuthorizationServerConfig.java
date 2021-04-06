@@ -62,4 +62,6 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 		.accessTokenConverter(accesTokenConverter)
 		.allowedTokenEndpointRequestMethods(HttpMethod.GET);
 	}
+	
+
 }
